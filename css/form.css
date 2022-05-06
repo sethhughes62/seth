@@ -1,0 +1,44 @@
+@import "main.css";
+
+.webform {
+  width: 75%;
+  padding: 30px;
+  margin: auto;
+  position: relative;
+  background-color: #eeeeee;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: var(--boxshadow);
+}
+
+.webform div {
+  margin-top: 10px;
+}
+.checkbox,
+.radio {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+#age {
+  width: 100px;
+}
+
+#date {
+  width: 150px;
+}
+
+#custom {
+  margin-top: 5px;
+}
+
+.submit {
+  border-color: #cccccc !important;
+  color: var(--secondaryColor) !important;
+}
+
+.submit:hover {
+  border-color: #cccccc !important;
+  color: var(--secondaryColor) !important;
+  background-color: var(--secondaryColor) !important;
+}

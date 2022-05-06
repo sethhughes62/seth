@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <title>ALCAZAR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#top").load("_top.html");
+        $("#bottom").load("_bottom.html");
+      });
+    </script>
+    <!-- styles.css-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!--animate on scroll AOS CSS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--animate on scroll AOS JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <div id="top"></div>
+    <!-- CONTENT GOES HERE -->
+
+    <!-- BEGIN CAROUSEL -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/images/carousel/HORIZONTAL1.jpg"
+            class="d-block w-100"
+            alt="first image placeholder"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>WELCOME TO ALCAZAR</h5>
+            <p>browse our website and enjoy your stay.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/HORIZONTAL2.jpg"
+            class="d-block w-100"
+            alt="second image placeholder"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>MUSIC</h5>
+            <p>
+              Check out our music tab for new upcoming artists and songs made
+              directly by us at ALCAZAR
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/HORIZONTAL3.jpg"
+            class="d-block w-100"
+            alt="third image placeholder"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CLOTHING</h5>
+            <p>Click here or at the clothing tab for all things clothing.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="ratio ratio-16x9 carousel-alternate">
+      <iframe
+        src="https://youtube.com/embed/he7GGkUUUl4"
+        title="youtube video"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+
+    <!-- END CAROUSEL -->
+
+    <!-- font awesome row begin -->
+    <div class="container-fluid text-center fa-row">
+      <div class="row">
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-shirt fa-row-icon"></i><br />
+          <a href="#"> CLOTHING </a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-glasses fa-row-icon"></i><br />
+          <a href="#"> ACCESORIES </a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-socks fa-row-icon"></i><br />
+          <a href="#"> VINTAGE CLOTHING </a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-regular fa-image fa-row-icon"></i><br />
+          <a href="#"> PHOTOS </a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-music fa-row-icon"></i><br />
+          <a href="#"> MUSIC </a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-crown fa-row-icon"></i><br />
+          <a href="#"> NEW RELEASES </a>
+        </div>
+      </div>
+    </div>
+    <!-- font awesome row end -->
+
+    <!-- first description section begin -->
+    <div class="container volunteer-div google-font">
+      <div class="row">
+        <div class="col">
+          <img
+            src="images/general/volunteer.jpg"
+            class="img-responsive volunteer-img"
+            alt="image placeholder description"
+          />
+
+          <h2>What is ALCAZAR?</h2>
+          <p>
+            ALCAZAR is a community, brand, and afficionado of all things
+            clothing and art.
+          </p>
+
+          <p>
+            Here at ALCAZAR, we believe that streetwear redefined luxury.
+          </p>
+
+          <p>
+            Before the term streetwear was officially coined, the movement was
+            already flourishing via small exchanges on downtown streets.
+            Initiation to the streetwear club came by way of a simple nod: a
+            passerby spotted your sneakers and you spotted theirs. Uptown, there
+            were similar exchanges occurring — except the buy-in was the most
+            expensive of luxury handbags.
+          </p>
+
+          <p>
+            Both traditional luxury fashion and streetwear depend on their
+            positions as cultural status symbols in order to drive demand.
+            However, as the Streetwear Impact Report reveals, new factors like
+            casual clothing and community have been integral to establishing
+            streetwear’s dominance. Streetwear emerged as an antidote to wider
+            fashion trends, stemming from countercultures like skate, surf and
+            hip-hop. It also opened the floodgates to a demographic that was
+            previously “not allowed” to show an interest in fashion: men.
+          </p>
+
+          <div>
+            <a href="form.html" class="btn btn-outline-primary"
+              >Volunteer now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- first description section end -->
+
+    <!-- gallery begins -->
+    <div class="container text-center">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/SQAURE1.jpg">
+            <img
+              src="/images/fancybox/thumbs/SQAURE1.jpg"
+              class="img-responsive img-fancybox"
+              alt="image placeholder description"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/SQUARE2.jpg">
+            <img
+              src="/images/fancybox/thumbs/SQUARE2.jpg"
+              class="img-responsive img-fancybox"
+              alt="image placeholder description"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/SQUARE3.jpg">
+            <img
+              src="/images/fancybox/thumbs/SQUARE3.jpg"
+              class="img-responsive img-fancybox"
+              alt="image placeholder description"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/SQUARE4.jpg">
+            <img
+              src="/images/fancybox/thumbs/SQUARE4.jpg"
+              class="img-responsive img-fancybox"
+              alt="image placeholder description"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="row gallery-button">
+        <div class="col-12 text-center">
+          <a href="gallery.html" class="btn btn-outline-primary btn-gallery">
+            View gallery</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- gallery ends -->
+
+    <!-- second description sections begin -->
+    <div class="container contact-div google-font">
+      <div class="row">
+        <div class="col">
+          <a data-fancybox href="/images/general/contact-us.jpg">
+            <img
+              src="/images/general/contact-us.jpg"
+              class="img-responsive contact-img"
+              alt="image placeholder description"
+            />
+          </a>
+
+          <h2>Want to become apart of ALCAZAR?</h2>
+          <p>
+            There are many things you can do to join the AlCAZAR community.
+          </p>
+          <p>
+            first off, anyone can join! If you rep our logo, or even admire from
+            a far, you are a part of ALCAZAR.
+          </p>
+          <p>
+            If you want to go the extram mile, you can apply to become a aprt of
+            our team as a writer, sourcer, designer, etc. we are always open to
+            looking at portfolios and resumes.
+          </p>
+          <p>
+            Shoot us an Email at ALCAZAR.hiring@Gmail.com
+          </p>
+          <p>
+            <strong>
+              THANK YOU FOR YOUR INTEREST IN ALCAZAR!
+            </strong>
+          </p>
+
+          <div>
+            <a href="#footerinfo" class="btn btn-outline-primary btn-contact"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second description sections end -->
+
+    <!-- members begin -->
+    <div class="container text-center staff" id="staff">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/staff1.jpg"
+            alt="image placeholder description"
+            class="cropped"
+            <!--data-aos="zoom-in"
+            --!
+          />
+          <br />
+          <blockquote>
+            Hey whats up, im a head designer here at alcazar. follow me on
+            social media @frankdesigns
+            <cite>FRANK</cite>
+          </blockquote>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/staff2.jpg"
+            alt="image placeholder description"
+            class="cropped"
+            <!--data-aos="zoom-in"
+            --!
+          />
+          <br />
+          <blockquote>
+            Hey! I'm Tori and i am the talent manager here at ALCAZAR. Contact
+            me for a sponsorship!
+            <cite>TORI</cite>
+          </blockquote>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/staffjb.jpg"
+            alt="image placeholder description"
+            class="cropped"
+            <!--data-aos="zoom-in"
+            --!
+          />
+          <br />
+          <blockquote>
+            Yo I'm Justin and I do modeling for all things clothing here at
+            ALCAZAR. I also make music for our drop videos.
+            <cite>JUSTIN</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <!-- members end -->
+
+    <!-- CONTENT GOES HERE -->
+    <div id="bottom"></div>
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>
